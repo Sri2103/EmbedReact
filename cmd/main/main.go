@@ -1,7 +1,7 @@
 package main
 
 import (
-	web "poc/embedReact/cmd/main/vite-project"
+	web "poc/embedReact/vite-project"
 
 	"github.com/labstack/echo/v4"
 )
