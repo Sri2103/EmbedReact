@@ -58,7 +58,7 @@ jobs:
                 # Generate provenance attestation for the build (shorthand for --attest=type=provenance)
                 provenance: # optional
                 # Always attempt to pull all referenced images
-                pull: # optional, default is false
+                pull: true
                 # Push is a shorthand for --output=type=registry
                 push: # optional, default is false
                 # Generate SBOM attestation for the build (shorthand for --attest=type=sbom)
