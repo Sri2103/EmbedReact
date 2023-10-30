@@ -48,7 +48,7 @@ jobs:
                 # Set the networking mode for the RUN instructions during build
                 network: # optional
                 # Do not use cache when building the image
-                no-cache: # optional, default is false
+                no-cache: false
                 # Do not cache specified stages
                 no-cache-filters: # optional
                 # List of output destinations (format: type=local,dest=path)
